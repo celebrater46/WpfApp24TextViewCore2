@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp24TextViewCore2", "WpfApp24TextViewCore2\WpfApp24TextViewCore2.csproj", "{2787B415-F200-4079-BCA6-8B73974B6ACD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2787B415-F200-4079-BCA6-8B73974B6ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2787B415-F200-4079-BCA6-8B73974B6ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2787B415-F200-4079-BCA6-8B73974B6ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2787B415-F200-4079-BCA6-8B73974B6ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78B24935-786E-4171-8A47-52F8591C4E42}
+	EndGlobalSection
+EndGlobal
