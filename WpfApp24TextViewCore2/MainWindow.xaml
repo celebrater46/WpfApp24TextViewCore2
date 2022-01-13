@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WpfApp24TextViewCore2"
         xmlns:ae="http://icsharpcode.net/sharpdevelop/avalonedit"
         mc:Ignorable="d"
-        Title="Text Viewer" Height="450" Width="800">
+        Title="Text Viewer" Height="451" Width="800">
     <Grid>
         <ae:TextEditor x:Name="textView" IsReadOnly="True" ShowLineNumbers="True" Drop="TextEditor_OnDrop" PreviewDragOver="TextView_OnPreviewDragOver">
             <ae:TextEditor.Options>
