@@ -4,9 +4,21 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp24TextViewCore2"
+        xmlns:ae="http://icsharpcode.net/sharpdevelop/avalonedit"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Text Viewer" Height="450" Width="800">
     <Grid>
-
+        <ae:TextEditor x:Name="textView" IsReadOnly="True" ShowLineNumbers="True" Drop="TextEditor_OnDrop" PreviewDragOver="TextView_OnPreviewDragOver">
+            <ae:TextEditor.Options>
+                <ae:TextEditorOptions ShowEndOfLine="True" ShowSpaces="True"/>
+            </ae:TextEditor.Options>
+            
+            <ae:TextEditor.ContextMenu>
+                <ContextMenu>
+                    <MenuItem x:Name="sjis" Header="Shift-JIS" Tag="sjis" Click="MenuItem_OnClick"/>
+                    <MenuItem x:Name="utf8" Header="UTF-8" Tag="utf8" Click="MenuItem_OnClick"/>
+                </ContextMenu>
+            </ae:TextEditor.ContextMenu>
+        </ae:TextEditor>
     </Grid>
 </Window>
